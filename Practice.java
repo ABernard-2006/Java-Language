@@ -26,6 +26,8 @@ public class Practice{
 		System.out.println(typeCast);
 
 		String AB = "Hello";
+		int BA = (int) AB;
+		System.out.println(BA);
 		
 		int x, y, z;
 		x = y = z = 10;
