@@ -10,12 +10,12 @@ public class Practice_v2 {
         width = input.nextDouble();
 
         System.out.print("Enter height: ");
-        height = input.nextDouble();
+        height = input.nextDouble();    
 
         System.out.print("Enter base: ");
         base = input.nextDouble();
 
-        if(width + height > base || width + base > height || height + base > width)
+        if(width + height > base && width + base > height && height + base > width)
         {
             double s = (height+base+width)/2;
             double area = Math.sqrt(s*(s-height)*(s-base)*(s-width));
