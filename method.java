@@ -1,4 +1,5 @@
 public class method {
+import java.util.Scanner;
 
     static double area(double sideA, double sideB, double sideC, double sideD)
     {
@@ -25,6 +26,9 @@ public class method {
 
     public static void main(String[] args)
     {
-        System.out.println("Area of square with side 5: " + area(5, 5, 5, 5));
+        Scanner sinput = new Scanner(System.in);
+        System.out.print("Enter the side of the square: ");
+        double side = sinput.nextDouble();
+        System.out.println("Area of square with side " + side + ": " + area(side, side, side, side));
     }
 }
