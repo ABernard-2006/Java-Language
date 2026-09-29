@@ -1,2 +1,6 @@
 *.class
 .DS_Store
+/OOP_Netbeans/nbproject/private/
+/OOP_Netbeans/build/
+/GradeCalculator/nbproject/private/
+/GradeCalculator/build/
